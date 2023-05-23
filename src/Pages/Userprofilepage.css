@@ -1,0 +1,58 @@
+.profile {
+  color: white;
+}
+.avatar1 {
+  position: fixed;
+  top: 90px;
+  left: 320px;
+  width: 80px;
+}
+.profile > h1 {
+  position: absolute;
+  top: 110px;
+  left: 320px;
+  font-size: 34px;
+}
+.profile > h2 {
+  position: absolute;
+  top: 160px;
+  left: 420px;
+  font-size: 18px;
+  background-color: grey;
+  padding: 8px;
+}
+.profile_plans > h3 {
+  color: grey;
+}
+/*.profile_plans > h2 {
+  position: absolute;
+  top: 210px;
+  left: 420px;
+  font-size: 18px;
+}*/
+
+.profile_info {
+  display: flex;
+}
+.profile_details {
+  flex: 1;
+  position: absolute;
+  top: 160px;
+  left: 420px;
+}
+.profile_details > h2 {
+  background-color: grey;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  width: 500px;
+}
+
+.signout_btn {
+  padding: 8px;
+  width: 500px;
+  color: white;
+  font-size: 18px;
+  background-color: #e50914;
+  margin-bottom: 30px;
+}
